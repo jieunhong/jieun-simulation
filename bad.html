@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+  <link href="./styles.css" rel="stylesheet">
+  <link href="./styles2.css" rel="stylesheet">
+  <title>두근두근 지은이 시뮬레이션! - 실패</title>
+</head>
+
+<body>
+  
+  <div class="img_wrap">
+    <div class="title">
+      <span>G</span>
+      <span>A</span>
+      <span>M</span>
+      <span>E</span>
+      <span></span>
+      <span>O</span>
+      <span>V</span>
+      <span>E</span>
+      <span>R</span>
+      <span>!</span>
+    </div>
+    <div>
+      <img src="bad.png" class="main_img">
+      <a href="index.html">
+      <div class="main-btn"><span> 처음부터! </span></div>
+    </a>
+    </div>
+  </div>
+  <!-- You can also require other files to run in this process -->
+  <script src="./renderer.js"></script>
+</body>
+
+</html>

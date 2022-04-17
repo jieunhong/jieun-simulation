@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <link href="./styles2.css" rel="stylesheet">
+    <title>두근두근 지은이 시뮬레이션!</title>
+</head>
+
+<body>
+
+    <div class="img_wrap">
+        <div>
+            <div class="main-area">
+                <img src="1.png" class="main_img">
+                <div class="select-btn-wrap">
+                    <span class="select-btn dp-none" value=0></span>
+                    <span class="select-btn dp-none" value=1></span>
+                    <span class="select-btn dp-none" value=2></span>
+                    <span class="select-btn dp-none" value=3></span>
+                    <span class="select-btn dp-none" value=4></span>
+                </div>
+            </div>
+            <div class="script-wrap">
+                <div class="wrapper">
+                    <span class="typing">  </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
